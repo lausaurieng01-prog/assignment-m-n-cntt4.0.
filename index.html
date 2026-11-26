@@ -1,26 +1,134 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Web Python Đầu Tiên</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            text-align: center;
-            padding-top: 100px;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        p {
-            color: #7f8c8d;
-        }
-    </style>
-</head>
-<body>
-    <h1>Xin chào, {{ name }}! 👋</h1>
-    <p>Trang web này được xây dựng thành công bằng Python và Flask.</p>
-</body>
-</html>
+
+<!-- MỤC LỤC 8 CHỦ ĐỀ -->
+<section id="toc">
+<div class="container">
+<h2 class="section-title">📚 MỤC LỤC THƯ VIỆN SỐ</h2>
+
+<div class="toc reveal">
+<a href="#python">01. Python</a>
+<a href="#java">02. Java</a>
+<a href="#ai">03. Trí tuệ nhân tạo AI</a>
+<a href="#turing">04. Phép thử Turing</a>
+<a href="#github">05. Git & GitHub</a>
+<a href="#excel">06. Microsoft Excel</a>
+<a href="#word">07. Microsoft Word</a>
+<a href="#web">08. HTML & CSS</a>
+</div>
+</div>
+</section>
+
+<!-- 8 CHỦ ĐỀ KIẾN THỨC -->
+<section id="knowledge">
+<div class="container">
+
+<h2 class="section-title">💻 KHO TÀNG 8 KIẾN THỨC</h2>
+
+<input
+type="text"
+class="search"
+id="search"
+placeholder="🔍 Tìm kiếm kiến thức..."
+onkeyup="searchContent()"
+>
+
+<div class="cards">
+
+<!-- 1 PYTHON -->
+<div class="card reveal" id="python">
+<div class="icon">🐍</div>
+<h3>01. PYTHON</h3>
+<p>Python là ngôn ngữ lập trình bậc cao,
+có cú pháp đơn giản và dễ học đối với người mới bắt đầu.</p>
+<p><b>Kiến thức:</b> Biến, vòng lặp, hàm,
+list, dictionary và xử lý dữ liệu.</p>
+<p><b>Ứng dụng:</b> AI, tự động hóa, phân tích dữ liệu.</p>
+</div>
+
+<!-- 2 JAVA -->
+<div class="card reveal" id="java">
+<div class="icon">☕</div>
+<h3>02. JAVA</h3>
+<p>Java là ngôn ngữ lập trình hướng đối tượng,
+được sử dụng trong nhiều hệ thống phần mềm.</p>
+<p><b>Kiến thức:</b> Class, Object, Method,
+Constructor và kế thừa.</p>
+<p><b>Ứng dụng:</b> Phần mềm doanh nghiệp,
+ứng dụng Android và hệ thống máy chủ.</p>
+</div>
+
+<!-- 3 AI -->
+<div class="card reveal" id="ai">
+<div class="icon">🤖</div>
+<h3>03. TRÍ TUỆ NHÂN TẠO AI</h3>
+<p>AI là công nghệ giúp máy tính thực hiện
+những nhiệm vụ cần khả năng phân tích,
+nhận dạng và xử lý thông tin.</p>
+<p><b>Kiến thức:</b> Machine Learning,
+Deep Learning và Generative AI.</p>
+<p><b>Công cụ:</b> ChatGPT, Gemini, Claude.</p>
+</div>
+
+<!-- 4 TURING -->
+<div class="card reveal" id="turing">
+<div class="icon">🧠</div>
+<h3>04. PHÉP THỬ TURING</h3>
+<p>Phép thử Turing được Alan Turing đề xuất
+năm 1950 nhằm thảo luận khả năng máy móc
+thể hiện hành vi hội thoại giống con người.</p>
+<p><b>Kiến thức:</b> Imitation Game,
+trí thông minh nhân tạo và triết học AI.</p>
+<p><b>Ý nghĩa:</b> Đặt ra câu hỏi về khả năng
+giao tiếp thông minh của máy tính.</p>
+</div>
+
+<!-- 5 GITHUB -->
+<div class="card reveal" id="github">
+<div class="icon">🌐</div>
+<h3>05. GIT & GITHUB</h3>
+<p>Git là công cụ quản lý phiên bản mã nguồn.
+GitHub là nền tảng lưu trữ dự án trực tuyến.</p>
+<p><b>Kiến thức:</b> Repository, Commit,
+Push, Pull và Branch.</p>
+<p><b>Ứng dụng:</b> Quản lý dự án,
+làm việc nhóm và lưu trữ code.</p>
+</div>
+
+<!-- 6 EXCEL -->
+<div class="card reveal" id="excel">
+<div class="icon">📊</div>
+<h3>06. MICROSOFT EXCEL</h3>
+<p>Excel là phần mềm bảng tính giúp
+người dùng tổ chức, xử lý và phân tích dữ liệu.</p>
+<p><b>Kiến thức:</b> SUM, AVERAGE,
+IF, COUNTIF, VLOOKUP.</p>
+<p><b>Ứng dụng:</b> Quản lý điểm số,
+thống kê và lập bảng dữ liệu.</p>
+</div>
+
+<!-- 7 WORD -->
+<div class="card reveal" id="word">
+<div class="icon">📝</div>
+<h3>07. MICROSOFT WORD</h3>
+<p>Word là phần mềm soạn thảo văn bản,
+hỗ trợ tạo báo cáo, tài liệu và luận văn.</p>
+<p><b>Kiến thức:</b> Heading, Table,
+Header, Footer và Table of Contents.</p>
+<p><b>Ứng dụng:</b> Làm báo cáo học tập,
+bài tập và tài liệu chuyên môn.</p>
+</div>
+
+<!-- 8 HTML CSS -->
+<div class="card reveal" id="web">
+<div class="icon">🎨</div>
+<h3>08. HTML & CSS</h3>
+<p>HTML tạo cấu trúc nội dung website,
+CSS giúp thiết kế giao diện và bố cục.</p>
+<p><b>Kiến thức:</b> HTML Tags,
+CSS Selectors, Flexbox và Grid.</p>
+<p><b>Ứng dụng:</b> Thiết kế website,
+trang cá nhân và giao diện web.</p>
+</div>
+
+</div>
+</div>
+</section>
